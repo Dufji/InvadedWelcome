@@ -8,7 +8,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 
-public class resetCounterCommand implements CommandExecutor {
+public class ResetCounterCommand implements CommandExecutor {
 
 
     @Override
