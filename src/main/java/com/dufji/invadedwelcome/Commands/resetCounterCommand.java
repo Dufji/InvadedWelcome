@@ -16,7 +16,7 @@ public class resetCounterCommand implements CommandExecutor {
         Plugin plugin = InvadedWelcome.getPlugin(InvadedWelcome.class);
         Player player = (Player) sender;
 
-        if (player.hasPermission("invadedwelcome.reset")) {
+        if (player.hasPermission("InvadedWelcome.reset")) {
             plugin.getConfig().set("amount-joined", 1);
             plugin.saveConfig();
             plugin.reloadConfig();
