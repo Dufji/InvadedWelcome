@@ -1,3 +1,9 @@
 server-name: "Example"
 welcome-message: "&7Welcome {player} to {server}! (&b#{uniqueJoined}&7)"
 amount-joined: 1
+
+
+# YAML data
+# {player} - player name
+# {server} - server name
+# {uniqueJoined} - unique players joined
