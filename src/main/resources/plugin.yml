@@ -1,0 +1,26 @@
+name: InvadedWelcome
+version: '${project.version}'
+main: com.dufji.invadedwelcome.InvadedWelcome
+
+
+commands:
+  creds:
+    usage: /<command>
+    description: Displays the author's name and socials.
+    aliases:
+      - credits
+      - cred
+      - dufji
+
+  resetcounter:
+    usage: /<command>
+    description: Reset the counter.
+    aliases:
+      - reset
+      - rs
+      - resetcount
+    permission: InvadedWelcome.reset
+
+  buch:
+    usage: /<command>
+    description: secret message ;)
