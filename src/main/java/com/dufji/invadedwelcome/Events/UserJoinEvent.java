@@ -37,5 +37,6 @@ public class UserJoinEvent implements Listener {
     @EventHandler
     public void onUserLeave(PlayerQuitEvent event) {
         event.setQuitMessage(null); // Stopping the default quit message from being sent.
+        // Yeah?! I put the quit event in the user join event, what are you gonna do about it?
     }
 }
