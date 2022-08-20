@@ -1,4 +1,4 @@
-name: InvadedWelcome
+name: WelcomePlus
 version: '${project.version}'
 main: com.dufji.invadedwelcome.InvadedWelcome
 

@@ -1,13 +1,13 @@
-package com.dufji.invadedwelcome;
+package com.dufji.welcomeplus;
 
-import com.dufji.invadedwelcome.Commands.CreditsCommand;
-import com.dufji.invadedwelcome.Commands.BuchCommand;
-import com.dufji.invadedwelcome.Commands.ResetCounterCommand;
-import com.dufji.invadedwelcome.Events.UserJoinEvent;
+import com.dufji.welcomeplus.Commands.CreditsCommand;
+import com.dufji.welcomeplus.Commands.BuchCommand;
+import com.dufji.welcomeplus.Commands.ResetCounterCommand;
+import com.dufji.welcomeplus.Events.UserJoinEvent;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class InvadedWelcome extends JavaPlugin {
+public final class WelcomePlus extends JavaPlugin {
     @Override
     public void onEnable() {
         if (!getDataFolder().exists()) getDataFolder().mkdir();
@@ -21,12 +21,12 @@ public final class InvadedWelcome extends JavaPlugin {
             this.saveConfig();
             this.reloadConfig();
         }
-        Bukkit.getLogger().info("[InvadedWelcome] InvadedWelcome is now ENABLED!");
+        Bukkit.getLogger().info("[Welcome+] WelcomePLUS is now ENABLED!");
     }
 
     @Override
     public void onDisable() {
         // Plugin shutdown logic
-        Bukkit.getLogger().info("[InvadedWelcome] InvadedWelcome has been DISABLED!");
+        Bukkit.getLogger().info("[Welcome+] WelcomePLUS has been DISABLED!");
     }
 }

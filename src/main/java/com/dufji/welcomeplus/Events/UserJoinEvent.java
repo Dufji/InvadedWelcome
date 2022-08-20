@@ -1,6 +1,6 @@
-package com.dufji.invadedwelcome.Events;
+package com.dufji.welcomeplus.Events;
 
-import com.dufji.invadedwelcome.InvadedWelcome;
+import com.dufji.welcomeplus.WelcomePlus;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -12,7 +12,7 @@ import org.bukkit.plugin.Plugin;
 
 
 public class UserJoinEvent implements Listener {
-    private static Plugin plugin = InvadedWelcome.getPlugin(InvadedWelcome.class);
+    private static Plugin plugin = WelcomePlus.getPlugin(WelcomePlus.class);
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {

@@ -1,6 +1,6 @@
-package com.dufji.invadedwelcome.Commands;
+package com.dufji.welcomeplus.Commands;
 
-import com.dufji.invadedwelcome.InvadedWelcome;
+import com.dufji.welcomeplus.WelcomePlus;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -13,7 +13,7 @@ public class ResetCounterCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        Plugin plugin = InvadedWelcome.getPlugin(InvadedWelcome.class);
+        Plugin plugin = WelcomePlus.getPlugin(WelcomePlus.class);
         Player player = (Player) sender;
 
         if (player.hasPermission("InvadedWelcome.reset")) {

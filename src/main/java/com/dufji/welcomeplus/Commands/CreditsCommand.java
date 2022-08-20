@@ -1,6 +1,6 @@
-package com.dufji.invadedwelcome.Commands;
+package com.dufji.welcomeplus.Commands;
 
-import com.dufji.invadedwelcome.InvadedWelcome;
+import com.dufji.welcomeplus.WelcomePlus;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -9,7 +9,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 
 public class CreditsCommand implements CommandExecutor {
-    private final Plugin plugin = InvadedWelcome.getPlugin(InvadedWelcome.class);
+    private final Plugin plugin = WelcomePlus.getPlugin(WelcomePlus.class);
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {

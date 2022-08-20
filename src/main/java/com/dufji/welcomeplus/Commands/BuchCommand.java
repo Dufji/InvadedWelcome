@@ -1,4 +1,4 @@
-package com.dufji.invadedwelcome.Commands;
+package com.dufji.welcomeplus.Commands;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
