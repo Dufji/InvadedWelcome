@@ -1,5 +1,5 @@
-# InvadedWelcome
-The welcome message from InvadedLands. Completely Customizable.
+# Welcome+
+The welcome message plugin that took longer than I'd like to admit :(
 
 
 ### DISCLAIMER
