@@ -1,4 +1,4 @@
-# Welcome+
+# WelcomePlus
 The welcome message plugin that took longer than I'd like to admit :(
 
 
